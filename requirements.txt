@@ -2,5 +2,6 @@ joblib
 pandas 
 imblearn
 gmail
-sklearn
+scikit-learn
+numpy
 request
