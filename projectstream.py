@@ -7,51 +7,7 @@ spam=joblib.load("spam_classifier")
 house=joblib.load("bengaluru_house_predict")
 recom=joblib.load("recommendation")
 import requests
-# st.title("second streamlit")
-# st.header("this is header")
-# st.subheader("this is subheader")
-# st.write("this is write")
-# st.text("this is text")
-# st.warning("this is warning")
-# st.error("this is error")
-# st.success("this is success")
-# st.markdown("this is markdoen")
 
-# st.markdown("this is link[google]('www.google.com')")
-# fileup=st.file_uploader("choose a file",type=["text","csv"])
-# if fileup:
-#     import pandas as pd 
-#     df=pd.read_csv(fileup)
-#     st.dataframe(df)
-# num=st.number_input("enter the num")
-# # bt=st.button("even/odd")
-# # if bt:
-# #     if(num%2==0):
-# #         st.write("EVEN")
-# #     else:
-# #         st.write("ODD")    
-
-# slider_age=st.slider("select your age",min_value=10,max_value=80)
-# if st.button("even/odd"):
-#     st.write(slider_age)
-#     if(slider_age%2==0):
-#         st.write("EVEN")
-#     else:
-#         st.write("ODD") 
-
-# col1,col2=st.columns(2)
-# with col1:
-#     name=st.text_input("give name")
-#     st.write(name)
-# with col2:
-#     dob=st.date_input("DOB") 
-#     st.write(dob)
-# st.success("hello")
-# # st.sidebar.image("D:\datasets\sumitphoto.jpeg")  
-
-# st.sidebar.button("SPAM Classifier")     
-# st.sidebar.button("Language Detection") 
-# st.sidebar.button("Food Review Sentiment")
 # CSS for crop
 st.markdown("""
 <style>
@@ -66,12 +22,12 @@ st.markdown("""
 
 col1,col2,col3=st.columns([20,20,20])
 with col1:
-    st.image("D:/datasets/sakuraimage.jpg")
+    st.image("sakuraimage.jpg")
 
 with col2:
-    st.image("D:/datasets/machine.jpg")
+    st.image("machine.jpg")
 with col3:
-    st.image("D:/datasets/sakuraimage.jpg")
+    st.image("sakuraimage.jpg")
 # 🧠 Title
 st.title("🤖 Machine Learning Projects Hub")
 tab1, tab2, tab3, tab4 ,tab5= st.tabs(["🍔 Food Review","📩 Spam Classifier","🌐 Language Detection","🏠 House Prediction","Movie recommendation"])
@@ -184,9 +140,9 @@ with tab5:
                 l=l+1 
 st.sidebar.title("📞 Contact Info")
 
-# st.image("D:/datasets/sakuraimage.jpg",use_container_width=True)
-st.sidebar.image("D:/datasets/contactus.jpg")
-# st.image("sakuraimage.jpg",)
+
+st.sidebar.image("contactus.jpg")
+
 
 
 st.sidebar.markdown("""
