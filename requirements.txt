@@ -2,6 +2,6 @@ joblib
 pandas 
 imblearn
 gmail
-scikit-learn==1.6.1 
+scikit-learn
 numpy
 request
