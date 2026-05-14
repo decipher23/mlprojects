@@ -4,4 +4,4 @@ imblearn
 gmail
 scikit-learn
 numpy
-request
+requests
