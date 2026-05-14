@@ -2,5 +2,5 @@ joblib
 pandas 
 imblearn
 gmail
-sklearn.compose._column_transformer
+sklearn
 request
